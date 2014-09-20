@@ -29,6 +29,7 @@ create the environment fle ".env" in the "emcforum" directory
     
     # for sqlite database
     DATABASE_URL='sqlite:///my-local-sqlite.db'
+    
     # for postgresql
     #DATABASE_URL='postgresql://User:Password@127.0.0.1:5432/emcforum'
     
