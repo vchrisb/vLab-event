@@ -17,6 +17,7 @@ First clone the repository:
     $ git clone git://github.com/vchrisb/vLab-event
 
 create the environment fle ".env" in the "emcforum" directory
+
 .env example:
 
     # as long as DEBUG=on you don't have to take care of 'static' files
