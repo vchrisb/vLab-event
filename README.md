@@ -7,8 +7,7 @@ Requirements:
 * Python (3)
 * Django (1.7)
 * django-environ (0.3.0)
-* gunicorn (19.1.1)
-* psycopg2 (2.5.4)
+* psycopg2 (2.5.4) for postgresql support
 
 Installation:
 -------------
