@@ -3,18 +3,22 @@ vLab-event
 django app for handling EMC's vLab autologinlinks for an event
 
 Requirements:
-Python (3)
-Django (1.7)
-django-environ (0.3.0)
-gunicorn (19.1.1)
-psycopg2 (2.5.4)
+-------------
+* Python (3)
+* Django (1.7)
+* django-environ (0.3.0)
+* gunicorn (19.1.1)
+* psycopg2 (2.5.4)
 
-First clone the repository::
+Installation:
+-------------
+
+First clone the repository:
 
     $ git clone git://github.com/vchrisb/vLab-event
 
 create the environment fle ".env" in the "emcforum" directory
-.env example::
+.env example:
 
     # as long as DEBUG=on you don't have to take care of 'static' files
     DEBUG=on
@@ -27,15 +31,18 @@ create the environment fle ".env" in the "emcforum" directory
     #DATABASE_URL='postgresql://User:Password@127.0.0.1:5432/emcforum'
     STATIC_ROOT='/django/static'
 
-create database tables::
+create database tables:
 
     $ python manage.py migrate
 
-create admin user::
+create admin user:
 
     $ python manage.py createsuperuser
 
-to test the app start the development server::
+Test application:
+-----------------
+
+start the django development server:
 
     $ python manage.py runserver 0.0.0.0:8000
 
