@@ -18,7 +18,7 @@ First clone the repository:
 
 create the environment fle ".env" in the "emcforum" directory
 
-.env example:
+``.env`` example:
 
     # as long as DEBUG=on you don't have to take care of 'static' files
     DEBUG=on
