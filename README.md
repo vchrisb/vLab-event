@@ -21,14 +21,18 @@ create the environment fle ".env" in the "emcforum" directory
 
     # as long as DEBUG=on you don't have to take care of 'static' files
     DEBUG=on
+    
     # the SECRET_KEY should be unique and only known to you
     # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
     SECRET_KEY='+_$1x@!s0z!n+ccemn#(jfc!eaw3$jq8^)m&4ys%@60002sq2d'
+    
     # for sqlite database
     DATABASE_URL='sqlite:///my-local-sqlite.db'
     # for postgresql
     #DATABASE_URL='postgresql://User:Password@127.0.0.1:5432/emcforum'
-    STATIC_ROOT='/django/static'
+    
+    # The absolute path to the directory where collectstatic will collect static files for deployment.
+    STATIC_ROOT='/var/www/vLab/static'
 
 create database tables:
 
